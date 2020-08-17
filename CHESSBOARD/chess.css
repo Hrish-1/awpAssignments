@@ -1,0 +1,41 @@
+.chessbox {
+    background-color:white;
+    width: 50%;
+    
+    margin: 50px;
+    border: 15px solid #333;
+
+}
+
+
+.blocki {
+    display: flex;
+}
+
+.blockj {
+    display: flex;
+}
+
+.block1 {
+    background: #7f8c8d;
+    flex : 1;
+    text-align: center;
+    height: 6vw;
+    font-size:4vw;
+    text-align:center;
+    vertical-align:middle;   
+}
+
+.block2 {
+    background: #fff;
+    flex:1;
+    text-align: center;    
+    height: 6vw;
+    font-size:4vw;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.block1:hover,.block2:hover{
+    background:#bdc3c7;
+}
